@@ -4,6 +4,12 @@
   color: black;
 }
 
+.container2 {
+  padding: 0 2rem;
+  background-color: #f6f6f6;
+  color: black;
+}
+
 .main {
   min-height: 100vh;
   display: flex;
