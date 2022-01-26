@@ -12,9 +12,9 @@ const Blinkingtext = ({ superpowers }: Props) => {
 
   return (
     <div>
-      <h1 className="font-semibold text-5xl space-x-4">MOrowo</h1>
+      <h1 className="font-semibold text-7xl space-x-4">MOrowo</h1>
       <p
-        className={cn('text-deepblue pb-2 min-h-[5rem]', {
+        className={cn('text-deepblue text-3xl pb-2 min-h-[5rem]', {
           ['end-cursor']: phase !== TypePhase.Deleting,
           ['blinking']: phase === TypePhase.Pausing,
         })}
