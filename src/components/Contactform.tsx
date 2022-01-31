@@ -11,6 +11,24 @@ const Contactform = () => {
     const message = e.target.message.value;
 
     // send a POST request to API
+    fetch('/api/mail', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        name: name,
+        email: email,
+        subject: subject,
+        message: message,
+      }),
+    }).then((res) => {
+      if (res.ok) {
+        alert(
+          "Thanks for reaching out! I'll get back to you as soon as possible."
+        );
+      }
+    });
   }
 
   return (
