@@ -5,7 +5,7 @@ import styles from '../../src/styles/Home.module.css';
 import { is_valid_link } from '../../src/utils/ValidateUtil';
 import Footer from '../../src/components/Footer';
 
-const index: NextPage = () => {
+const Index: NextPage = () => {
   const [link, setLink] = React.useState('');
 
   function handleSubmit(event: any) {
@@ -35,7 +35,7 @@ const index: NextPage = () => {
   return (
     <div className={styles.container}>
       <Head>
-        <title>MOrowo's</title>
+        <title>MOrowo</title>
         <meta name="description" content="Welcome to mysite, fellow nerds" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -68,4 +68,4 @@ const index: NextPage = () => {
   );
 };
 
-export default index;
+export default Index;
