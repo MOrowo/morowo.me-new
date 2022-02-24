@@ -14,7 +14,7 @@ export default async function handler(
     let data = {
       name: r,
       link: req.body.url,
-      new_link: 'http://localhost:3000/shortener/' + r + '/',
+      new_link: 'https://morowo.me/shortener/' + r + '/',
     };
     insertToDB(data);
     res.status(200).send(data);
