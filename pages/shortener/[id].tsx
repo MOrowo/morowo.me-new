@@ -9,7 +9,7 @@ const test: NextPage = () => {
 
   useEffect(() => {
     if (id != null)
-      axios.get(`http://localhost:3000/api/${id}`).then((res: any) => {
+      axios.get(`https://morowo.me/api/${id}`).then((res: any) => {
         let result1 = document.getElementById('result1');
         if (result1) {
           if (res.data.status === 200) {
