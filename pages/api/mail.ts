@@ -38,13 +38,16 @@ export default async function handler(
         `,
     };
 
-    transporter.sendMail(data, function (err: any) {
+    transporter.sendMail(data, function (err: any, success: any) {
       if (err) {
-        console.log(err);
+        res.status(403).json({ message: "Couldn't send email" });
+      }
+
+      if (success) {
+        res.status(200).json({ message: 'Email sent' });
       }
     });
-    res.status(200).json({ message: 'Sucessfully sent the email' });
   } else {
-    res.status(400).send('METHOD GET NOT ALLOWED');
+    res.status(405).send('METHOD GET NOT ALLOWED');
   }
 }
