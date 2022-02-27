@@ -28,6 +28,9 @@ const Contactform = () => {
           "Thanks for reaching out! I'll get back to you as soon as possible."
         );
       }
+      if (res.status == 405 || res.status == 403) {
+        alert("Couldn't process your request. Please try again later.");
+      }
     });
   }
 
