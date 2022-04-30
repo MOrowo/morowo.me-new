@@ -35,11 +35,11 @@ const Navbar = () => {
                     Home
                   </a>
                 </Link>
-                <Link href="/" scroll={false}>
+                {/* <Link href="/" scroll={false}>
                   <a className={inactive} onClick={scrollToAbout}>
                     About
                   </a>
-                </Link>
+                </Link> */}
                 <Link href="/projects">
                   <a
                     id="projects"
