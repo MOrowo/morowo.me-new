@@ -6,7 +6,7 @@ const SocialMedia = () => {
       <a href="https://github.com/morowo">
         <img src="https://img.icons8.com/ios-glyphs/30/000000/github.png" />
       </a>
-      <a href="https://instagram.com/morowo__">
+      <a href="https://instagram.com/realmorowo">
         <img src="https://img.icons8.com/ios-glyphs/30/000000/instagram-new.png" />
       </a>
       <a href="https://twitter.com/morowo6">
