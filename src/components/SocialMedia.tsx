@@ -12,7 +12,7 @@ const SocialMedia = () => {
       </a>
       <a
         target="_blank"
-        href="https://instagram.com/realmorowo"
+        href="https://instagram.com/moorningggg"
         rel="noopener noreferrer"
       >
         <img src="https://img.icons8.com/ios-glyphs/30/000000/instagram-new.png" />
