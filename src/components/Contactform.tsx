@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { EventHandler } from 'react';
 import styles from '../styles/Home.module.css';
 
 const Contactform = () => {
