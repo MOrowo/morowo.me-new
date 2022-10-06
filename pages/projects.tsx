@@ -11,7 +11,7 @@ const Projects: NextPage = () => {
       <Head>
         <title>MOrowo</title>
         <meta name="description" content="MOrowo | Contact" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/me.jpg" />
       </Head>
       <Navbar />
       {/* add project I've made here */}

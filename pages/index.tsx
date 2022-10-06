@@ -12,7 +12,7 @@ const Home: NextPage = () => {
       <Head>
         <title>MOrowo</title>
         <meta name="description" content="Welcome to mysite, fellow nerds" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/me.jpg" />
       </Head>
 
       <Navbar />

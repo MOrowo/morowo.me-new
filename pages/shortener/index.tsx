@@ -37,7 +37,7 @@ const Index: NextPage = () => {
       <Head>
         <title>MOrowo</title>
         <meta name="description" content="Welcome to mysite, fellow nerds" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/me.jpg" />
       </Head>
       <main className={styles.main}>
         <div className="flex flex-col">
