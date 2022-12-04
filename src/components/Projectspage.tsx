@@ -9,13 +9,13 @@ const Projectspage = () => {
           {/* item 1 */}
           <div
             id="parent-container"
-            className="flex items-center columns-2 mt-52"
+            className="flex items-center columns-2 mt-32"
           >
             <div id="parent-text" className="flex-auto w-full">
-              <h3 className="pt-10 px-6 font-semibold text-5xl">
+              <h3 className="px-6 font-semibold text-5xl">
                 <span className="text-deepblue">Item Classification</span>
               </h3>
-              <p className="text-xl py-8 px-8">
+              <p className="text-xl py-4 px-8">
                 A python system that reads text on product. Then the system
                 classify the item!
               </p>
@@ -51,10 +51,10 @@ const Projectspage = () => {
               />
             </div>
             <div id="parent-text" className="flex-auto w-full">
-              <h3 className="pt-10 px-6 font-semibold text-5xl">
+              <h3 className="px-6 font-semibold text-5xl">
                 <span className="text-deepblue">Poggers Pumpkin</span>
               </h3>
-              <p className="text-xl py-8 px-8">
+              <p className="text-xl py-4 px-8">
                 A mysterious pumpkin that changes its color on vocal command.
               </p>
               <p className="text-lg pl-8 pr-8">
