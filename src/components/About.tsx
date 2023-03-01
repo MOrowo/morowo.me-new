@@ -7,7 +7,7 @@ const About = () => {
   map.set(16, 'sophomore');
   map.set(17, 'junior');
   map.set(18, 'senior');
-  const age = new Date().getFullYear() - 2006 + 1;
+  const age = new Date().getFullYear() - 2006;
   const grade = map.get(age);
   return (
     <div>
